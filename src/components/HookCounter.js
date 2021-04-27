@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const HookCounter = () => {
     const [count, setCount] = useState(0)
     const [name, setName] = useState('')
-
+    
     useEffect(()=> {
         document.title = `You clicked ${count} times`
         console.log('updating ')
