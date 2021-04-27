@@ -13,6 +13,9 @@ import HookCounter4 from "./components/UseEffectAndState/HookCounter4";
 import HookMouse from "./components/UseEffectAndState/HookMouse";
 import InterveralHookCounter from "./components/UseEffectAndState/InterveralHookCounter";
 import MouseContainer from "./components/UseEffectAndState/MouseContainer";
+import Counter1 from "./components/UseReducerUse/Counter1";
+import Counter2 from "./components/UseReducerUse/Counter2";
+import Counter3 from "./components/UseReducerUse/Counter3";
 
 export const UserContext = React.createContext();
 
@@ -45,6 +48,12 @@ function App() {
         <DataFetching5 />
         <hr/>
         <ComponentC /> */}
+        <hr/>
+        <Counter1/>
+        <hr/>
+        <Counter2/>
+        <hr/>
+        <Counter3/>
       </UserContext.Provider>
     </div>
   );
